@@ -1,16 +1,21 @@
 {
-    "name": "rossjcooper/laravel-hubspot",
+    "name": "tschope/laravel-hubspot",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Ross Cooper",
             "email": "therossjcooper@gmail.com"
+        },
+        {
+            "name": "Rodrigo Tschope",
+            "email": "tschope@gmail.com",
+            "homepage": "https://tschope.tech"
         }
     ],
     "require": {
         "illuminate/support": ">=5.3",
-        "hubspot/hubspot-php": "^2.0"
+        "tschope/hubspot-php": "^2.0"
     },
     "autoload": {
         "psr-4": {
